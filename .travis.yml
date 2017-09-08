@@ -10,9 +10,9 @@ notifications:
     slack:
       on_success: always
   irc: "chat.freenode.net#my-channel"
-language: bash
+language: sh
 after_script:
-   - bash abc.sh
+   - sh abc.sh
  
   
       
