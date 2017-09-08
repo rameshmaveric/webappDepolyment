@@ -9,6 +9,7 @@ notifications:
       - "Build details : %{build_url}"
     slack:
       on_success: always
+irc: "chat.freenode.net#my-channel"
       
    
 
