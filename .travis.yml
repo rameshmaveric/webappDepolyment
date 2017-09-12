@@ -1,6 +1,10 @@
 language: java
 os:
   - windows
+env:
+  - NODE_ENV=production
+  - NODE_ENV=staging
+  
 notifications:
   irc:
     template:
