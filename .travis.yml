@@ -12,10 +12,7 @@ deploy:
   space: prod
   on:
     branch: master
-language: sh
-after_script:
-   - sh abc.sh
- 
+
   
       
    
