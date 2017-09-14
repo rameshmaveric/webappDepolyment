@@ -3,6 +3,6 @@ applications:
   memory: 256M
   instances: 1
   domain: mybluemix.net
-  name: test
-  host: test-rak
+  name: Sagantest
+  host: Sagantest
   disk_quota: 1024M
