@@ -1,7 +1,6 @@
 language: java
 os:
   - windows
-
 deploy:
   provider: bluemixcloudfoundry
   skip_cleanup: true
@@ -9,7 +8,7 @@ deploy:
   username: sourabh_bhorjare@persistent.co.in
   password: Ruchika@12
   organization: sourabh_bhorjare
-  space: prod
+  space: Sagantest
   on:
     branch: master
 
