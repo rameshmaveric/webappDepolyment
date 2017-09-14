@@ -5,10 +5,10 @@ deploy:
   provider: bluemixcloudfoundry
   skip_cleanup: true
   manifest: manifest.yml
-  username: sourabh_bhorjare@persistent.co.in
-  password: Ruchika@12
-  organization: sourabh_bhorjare
-  space: Sagantest
+  username: rameshuser123@gmail.com
+  password: Tango@123
+  organization: SaganCoreTest
+  space: Sagan_Core
   on:
     branch: master
 
