@@ -7,7 +7,7 @@ deploy:
   manifest: manifest.yml
   username: rameshuser123@gmail.com
   password: Tango@123
-  organization: SaganCoreTest
+  organization: SaganCore
   space: Sagan_Core
   on:
     branch: master
