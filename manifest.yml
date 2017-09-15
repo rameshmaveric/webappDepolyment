@@ -1,6 +1,7 @@
 applications:
 - buildpack: https://github.com/cloudfoundry/java-buildpack
 - path: .
+- name: webappDepolyment
   memory: 256M
   instances: 1
   domain: mybluemix.net
