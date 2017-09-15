@@ -2,7 +2,7 @@ language: java
 jdk:
   - oraclejdk8
 deploy:
-  provider: cloudfoundry
+  provider: bluemixcloudfoundry
   skip_cleanup: true
   manifest: manifest.yml
   username: rameshuser123@gmail.com
