@@ -1,5 +1,5 @@
 applications:
-- buildpack: https://github.com/rameshmaveric/cloudfoundry/java-buildpack.git
+- buildpack: https://github.com/cloudfoundry/java-buildpack
 - path: .
   memory: 256M
   instances: 1
