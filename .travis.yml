@@ -11,6 +11,10 @@ deploy:
   space: Sagan_Core
   on:
     branch: master
+notifications:
+  webhooks:
+     urls:
+      - https://github.com/rameshmaveric/weblogic-deployer-ex.git
 
   
       
