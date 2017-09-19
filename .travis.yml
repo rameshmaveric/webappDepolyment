@@ -5,7 +5,7 @@ jdk:
  before_install:
  - chmod +x gradlew
  script:
-  - ./display_script
+  - ./display_script.sh
 deploy:
   provider: bluemixcloudfoundry
   skip_cleanup: true
